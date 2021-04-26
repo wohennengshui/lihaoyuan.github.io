@@ -1,1 +1,2 @@
 # lihaoyuan.github.io
+#blog
