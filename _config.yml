@@ -56,8 +56,6 @@ plainwhite:
 # Build settings
 remote_theme: plainwhite
 
-timezone: Asia/Shanghai
-
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
