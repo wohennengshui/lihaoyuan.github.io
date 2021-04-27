@@ -61,6 +61,3 @@ timezone: Asia/Shanghai
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
-
-mermaid:
-   src: /Path/To/mermaid.min.js
