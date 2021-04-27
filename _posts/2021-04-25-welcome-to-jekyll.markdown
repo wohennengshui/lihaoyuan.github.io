@@ -9,7 +9,7 @@ categories: iOS algorithm
 ### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 
 > 引用
->>这是引用的内容   {{ site.url }}
+>>这是引用的内容       
 ------
 *****
 
@@ -34,7 +34,7 @@ rzp.capture(payment_id, cost)
 	})
 ```
 
-![图片备注]({{ site.url }}assets/li.png)
+![图片备注]({{ site.url }}/assets/li.png)
 
 -: 设置内容和标题栏居右对齐  
 :- 设置内容和标题栏居左对齐  
