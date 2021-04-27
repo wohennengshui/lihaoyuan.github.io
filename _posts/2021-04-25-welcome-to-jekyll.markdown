@@ -9,9 +9,10 @@ categories: iOS algorithm
 ### Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 
 > 引用
->>这是引用的内容       
-------
-*****
+>>> 这是引用的内容   
+
+--------
+********
 
 * 列表
 * 列表2   
@@ -48,8 +49,7 @@ rzp.capture(payment_id, cost)
 
 
 
-```
-flow
+```flow
 st=>start: 开始
 op=>operation: My Operation
 cond=>condition: Yes or No?
@@ -57,7 +57,6 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&
 ```
 
 ~~删除内容~~
