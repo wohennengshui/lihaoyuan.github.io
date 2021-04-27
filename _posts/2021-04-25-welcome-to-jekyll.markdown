@@ -51,19 +51,23 @@ rzp.capture(payment_id, cost)
 
 ```flow
 st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
+e=>end: 结束
+c1=>condition: A
+c2=>condition: B
+c3=>condition: C
+io=>inputoutput: D 
+st->c1(no)->e
+c2(no)->e
+c3(no)->e
+c1(yes,right)->c2(yes,right)->c3(yes,right)->io
+io->e
 ```
 
 ~~删除内容~~
 
 
-需要注明的文本 [^MarkDown]。
-[^MarkDown]:Markdown 是一种轻量级标记语言。
+需要注明的文本 [^2]。
+[^2]:Markdown 是一种轻量级标记语言。
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
