@@ -63,6 +63,15 @@ c1(yes,right)->c2(yes,right)->c3(yes,right)->io
 io->e
 ```
 
+
+{% mermaid %} 
+graph TD
+    B["fa:fa-twitter for peace"]
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+    B-->E(A fa:fa-camera-retro perhaps?);
+{% endmermaid %}
+
 ~~删除内容~~
 
 
